@@ -1,5 +1,4 @@
-import { Button,  Col,  Container, Row } from "react-bootstrap";
-
+import { Button,  Col,  Container, Row } from "react-bootstrap";  // eslint-disable-line
 import Person from "./data";
 import Datescount from "./components/Datescount"
 import Dateslists from "./components/Dateslists";
