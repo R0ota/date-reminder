@@ -7,7 +7,7 @@ export const Datescount = ({Person}) => {
   return (
 <Row className="justify-content-center">
 <Col  sm="8" className="">
-   لديك {Person.length} مواعيد
+   you have {Person.length} appointments
 
 </Col>
   </Row>  )

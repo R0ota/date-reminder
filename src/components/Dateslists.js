@@ -8,10 +8,12 @@ export const Dateslists = ({Person}) => {
       
     <div className="rectangle p-2">
     { Person.length ? (Person.map((item) => {
+
     
     return(
     <div key={item.id} className="d-flex border-bottom mx-3 my-2">
-      <img  className="img-avatar"  src="p1.jpg" alt="hhh"/>
+      {console.log(item)}
+      <img  className="img-avatar"  src={item.img} alt="hhh"/>
     <div className="mx-3">
     
       <p className="d-inline fs-5">{item.name}</p>
@@ -22,7 +24,7 @@ export const Dateslists = ({Person}) => {
     )
     
     
-    }) ) : <h2 className="p-5 text-center"> لايوجد مواعيد اليوم</h2>}
+    }) ) : <h2 className="p-5 text-center">  There are no appointments today </h2>}
     
     
     
